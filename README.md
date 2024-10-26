@@ -34,20 +34,28 @@ The Bayesian Network was built using the `pgmpy` library to model dependencies a
 Using the Variable Elimination inference method, the model predicts risk zones based on current state inputs, giving a probability distribution over the possible zones.
 
 ## Usage
-  Running the Code
-  Clone the repository:
-      git clone https://github.com/siddharthn183/OutbreakPredictionBayesianNetwork.git
-      cd OutbreakPredictionBayesianNetwork
-
+  Running the Code:
+ - Clone the repository:
+-  git clone https://github.com/siddharthn183/OutbreakPredictionBayesianNetwork.git
+-  cd OutbreakPredictionBayesianNetwork
+  
 ## Example Results
+
+
+
+
+
+
 When provided with the following input:
-  Infections: 1000
-  Deaths: 250
-  Temperature: 25C
-  Vaccination Percentage: 90%
+ - Infections: 1000
+ - Deaths: 250
+ -  Temperature: 25C
+ -  Vaccination Percentage: 90%
+
+
 The model may output:
-  Predicted Risk Zone: Orange Zone
-  Probability Distribution:
+  - Predicted Risk Zone: Orange Zone
+  - Probability Distribution:
     - Blue/Yellow Zone: 5%
     - Orange Zone: 65%
     - Red Zone: 30%

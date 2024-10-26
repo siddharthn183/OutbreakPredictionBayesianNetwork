@@ -39,7 +39,7 @@ Install the necessary libraries before running the code:
 ```bash
 pip install pandas pgmpy scikit-learn imbalanced-learn
 
-Usage
+## Usage
   Running the Code
   Clone the repository:
       git clone https://github.com/siddharthn183/OutbreakPredictionBayesianNetwork.git
